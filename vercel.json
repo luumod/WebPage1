@@ -10,7 +10,7 @@
       },
       {
         "source": "/login_if",
-        "destination": "/api/login.js"
+        "destination": "/api/login"
       },
       {
         "source": "/aboutme",

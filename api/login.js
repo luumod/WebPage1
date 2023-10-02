@@ -1,18 +1,18 @@
-// app/login.js
 const express = require('express');
+const bodyParser = require('body-parser');
 const app = express();
+const port = 3000;
 
-// 解析表单数据
-app.use(express.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({ extended: false }));
 
-module.exports = app.post('/login_if',(req, res) => {
-    const { email, password } = req.body;
-    console.log('email: ',email);
-    console.log('password: ',password);
-    if (email === '1173012900@qq.com' && password === 'woshishuaige666') {
-      res.redirect('https://pan.helloylh.com'); // 登录成功，重定向到目标页面
-    } else {
-      res.redirect('/404'); // 登录失败，重定向到404页面或其他错误页面
-    }
+module.exports = app.post('/login', (req, res) => {
+  if (req.body.email === '1173012900@qq.com' && req.body.password === 'woshishuaige666') {
+    res.redirect('https://pan.helloylh.com'); 
+  } else {
+    res.redirect('/404');
+  }
 });
-  
+
+app.listen(port, () => {
+  console.log(`Server is listening on port ${port}`);
+});
