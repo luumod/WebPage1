@@ -2,23 +2,23 @@
     "rewrites": [
       {
         "source": "/",
-        "destination": "/public/index.html"
+        "destination": "/index.html"
       },
       {
         "source": "/login",
-        "destination": "/app/login.js"
+        "destination": "/login.js"
       },
       {
         "source": "/aboutme",
-        "destination": "/public/aboutme.html"
+        "destination": "/aboutme.html"
       },
       {
         "source": "/association",
-        "destination": "/public/association.html"
+        "destination": "/association.html"
       },
       {
         "source": "/404",
-        "destination": "/public/notfound.html"
+        "destination": "/notfound.html"
       }
     ]
 }
