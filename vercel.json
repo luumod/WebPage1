@@ -2,27 +2,27 @@
     "rewrites": [
       {
         "source": "/",
-        "destination": "/index.html"
+        "destination": "/src/index.html"
       },
       {
-        "source": "/login1",
-        "destination": "/login.html"
+        "source": "/login",
+        "destination": "/src/login.html"
       },
       {
         "source": "/input_ok",
         "destination": "/api/login.js"
       },
       {
-        "source": "/aboutme1",
-        "destination": "/aboutme.html"
+        "source": "/aboutme",
+        "destination": "/src/aboutme.html"
       },
       {
-        "source": "/association1",
-        "destination": "/association.html"
+        "source": "/association",
+        "destination": "/src/association.html"
       },
       {
         "source": "/404",
-        "destination": "/notfound.html"
+        "destination": "/src/notfound.html"
       }
     ]
 }
