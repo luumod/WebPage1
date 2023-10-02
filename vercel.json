@@ -9,8 +9,8 @@
         "destination": "/login.html"
       },
       {
-        "source": "/login_if",
-        "destination": "/api/login"
+        "source": "/input_ok",
+        "destination": "/api/login.js"
       },
       {
         "source": "/aboutme",
