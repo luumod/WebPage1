@@ -10,11 +10,11 @@
       },
       {
         "source": "/aboutme",
-        "destination": "/public/aboutme.html"
+        "destination": "https://www.helloylh.com"
       },
       {
         "source": "/association",
-        "destination": "/public/association.html"
+        "destination": "https://blog.helloylh.com"
       },
       {
         "source": "/404",
