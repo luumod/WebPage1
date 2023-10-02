@@ -5,7 +5,7 @@ const app = express();
 // 解析表单数据
 app.use(express.urlencoded({ extended: true }));
 
-module.exports = (req, res) => {
+module.exports = app.post('/login_if',(req, res) => {
     const { email, password } = req.body;
     console.log('email: ',email);
     console.log('password: ',password);
@@ -14,5 +14,5 @@ module.exports = (req, res) => {
     } else {
       res.redirect('/404'); // 登录失败，重定向到404页面或其他错误页面
     }
-};
+});
   
