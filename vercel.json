@@ -1,0 +1,9 @@
+{
+    "rewrites": [
+      { "source": "/page1", "destination": "/public/page1.html" },
+      { "source": "/aboutme", "destination": "/public/aboutme.html" },
+      { "source": "/association", "destination": "/public/association.html" },
+      { "source": "/(.*)", "destination": "/public/index.html" }
+    ]
+  }
+  
