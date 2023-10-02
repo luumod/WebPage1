@@ -1,4 +1,9 @@
 // app/login.js
+const express = require('express');
+const app = express();
+
+// 解析表单数据
+app.use(express.urlencoded({ extended: true }));
 
 module.exports = (req, res) => {
     const { email, password } = req.body;
