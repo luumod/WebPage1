@@ -6,7 +6,7 @@
       },
       {
         "source": "/login",
-        "destination": "/login.js"
+        "destination": "/api/login.js"
       },
       {
         "source": "/aboutme",
