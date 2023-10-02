@@ -2,11 +2,11 @@
     "rewrites": [
       {
         "source": "/",
-        "destination": "/src/index.html"
+        "destination": "/public/index.html"
       },
       {
         "source": "/login",
-        "destination": "/src/login.html"
+        "destination": "/public/login.html"
       },
       {
         "source": "/input_ok",
@@ -14,15 +14,15 @@
       },
       {
         "source": "/aboutme",
-        "destination": "/src/aboutme.html"
+        "destination": "/public/aboutme.html"
       },
       {
         "source": "/association",
-        "destination": "/src/association.html"
+        "destination": "/public/association.html"
       },
       {
         "source": "/404",
-        "destination": "/src/notfound.html"
+        "destination": "/public/notfound.html"
       }
     ]
 }
