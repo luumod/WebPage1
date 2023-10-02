@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Launch Program",
+        "program": "${workspaceFolder}/public/index.html", // 这里将 app.js 替换为你的入口文件
+        "cwd": "${workspaceFolder}",
+        "runtimeExecutable": "node",
+        "runtimeArgs": [
+          "--inspect-brk=127.0.0.1:3000" // 这里配置 Node.js 调试端口
+        ],
+        "port": 3000
+      }
+    ]
+  }
+  
