@@ -1,8 +1,24 @@
 {
     "rewrites": [
       {
-        "source": "/(.*)",
-        "destination": "/handle.js"
+        "source": "/",
+        "destination": "/public/index.html"
+      },
+      {
+        "source": "/login",
+        "destination": "/app/login.js"
+      },
+      {
+        "source": "/aboutme",
+        "destination": "/public/aboutme.html"
+      },
+      {
+        "source": "/association",
+        "destination": "/public/association.html"
+      },
+      {
+        "source": "/404",
+        "destination": "/public/notfound.html"
       }
     ]
 }

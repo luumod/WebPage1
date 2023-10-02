@@ -1,0 +1,66 @@
+*.vscode
+
+
+# Ignore Node.js build-related files
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+.pnp
+.pnp.js
+*.pnp.js
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+.env.test
+.env.production
+.env.development
+
+# Ignore logs and generated files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pids/
+*.pid
+*.seed
+*.pid.lock
+lib-cov/
+coverage/
+*.lcov
+*.lss
+*.nyc_output/
+.out/
+pids/
+logs/
+.eslintcache
+# Ignore build output
+build/
+dist/
+
+# Ignore user-specific files and folders
+*.suo
+*.user
+*.sln.docstates
+
+# Ignore VS Code settings
+.vscode/
+.idea/
+
+# Ignore WebStorm project settings
+.idea/
+
+# Ignore macOS and Windows files
+.DS_Store
+Thumbs.db
+
+# Ignore test and coverage folders
+__tests__/
+coverage/
+
+# Ignore debug logs
+*.swp
